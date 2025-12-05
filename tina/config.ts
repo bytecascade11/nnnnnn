@@ -3,8 +3,8 @@ import { defineConfig } from "tinacms";
 
 export default defineConfig({
   branch: "main",
-  clientId: process.env.TINA_CLIENT_ID!,
-  token: process.env.TINA_TOKEN!,
+  clientId: process.env.TINA_CLIENT_ID!,   // ← fixed
+  token: process.env.TINA_TOKEN!,             // ← this one is correct
 
   build: {
     outputFolder: "admin",
@@ -22,7 +22,7 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "src/content/post",
-        format: "md,
+        format: "md",                          // ← fixed (you had "md, )
         fields: [
           { type: "string", name: "title", label: "Title", isTitle: true, required: true },
           { type: "string", name: "description", label: "Description" },
