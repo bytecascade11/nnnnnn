@@ -4,7 +4,8 @@ import type { AstroExpressiveCodeOptions } from "astro-expressive-code";
 export const siteConfig: SiteConfig = {
 	author: "iSamuel",
 	title: "ReviByte Opinions",
-	description: "ByteCascade delivers the latest tech news, gadget Opinions, Android updates, and in-depth guides to keep you informed and ahead in the digital world.",
+	description:
+		"ByteCascade delivers the latest tech news, gadget opinions, Android updates, and in-depth guides to keep you informed and ahead in the digital world.",
 	lang: "en",
 	ogLocale: "en_US",
 	date: {
@@ -18,7 +19,7 @@ export const siteConfig: SiteConfig = {
 	url: "https://reviivyetechu.vercel.app/",
 };
 
-// TOP NAVIGATION — exactly what you asked for
+// TOP NAVIGATION ONLY – exactly what you want
 export const menuLinks: { path: string; title: string }[] = [
 	{ path: "/", title: "HOME" },
 	{ path: "/category/news/", title: "NEWS" },
@@ -30,7 +31,7 @@ export const menuLinks: { path: string; title: string }[] = [
 	{ path: "/category/opinions/", title: "OPINIONS" },
 ];
 
-// FOOTER — your legal links (kept separate)
+// FOOTER LINKS ONLY – these will be used after you apply the Footer.astro fix
 export const footerLinks: { path: string; title: string }[] = [
 	{ path: "/about-the-editor/", title: "About the Editor" },
 	{ path: "/contact-us/", title: "Contact Us" },
@@ -39,7 +40,7 @@ export const footerLinks: { path: string; title: string }[] = [
 	{ path: "/disclaimer/", title: "Disclaimer" },
 ];
 
-// Code blocks (leave untouched — looks great)
+// Code block styling – leave exactly like this
 export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 	styleOverrides: {
 		borderRadius: "4px",
