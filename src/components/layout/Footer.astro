@@ -1,27 +1,14 @@
----
-import { menuLinks, siteConfig } from "@/site.config";
-
-const year = new Date().getFullYear();
----
-
-<footer
-	class="mt-auto flex w-full flex-col items-center justify-center gap-y-2 pt-20 pb-4 text-center align-top font-semibold text-gray-600 sm:flex-row sm:justify-between sm:text-xs dark:text-gray-400"
->
-	<div class="me-0 sm:me-4">
-		&copy; {siteConfig.author}
-		{year}.<span class="inline-block">&nbsp;🚀&nbsp;{siteConfig.title}</span>
-	</div>
-	<nav
-		aria-labelledby="footer_links"
-		class="flex gap-x-2 sm:gap-x-0 sm:divide-x sm:divide-gray-500"
-	>
-		<p id="footer_links" class="sr-only">More on this site</p>
-		{
-			menuLinks.map((link) => (
-				<a class="hover:text-global-text px-4 py-2 hover:underline sm:py-0" href={link.path}>
-					{link.title}
-				</a>
-			))
-		}
-	</nav>
+<footer class="border-t py-8 mt-16">
+  <div class="container mx-auto px-4">
+    <nav class="flex flex-wrap gap-x-8 gap-y-3 text-sm text-muted-foreground justify-center">
+      <a href="/about-the-editor/" class="hover:text-foreground transition">About the Editor</a>
+      <a href="/contact-us/" class="hover:text-foreground transition">Contact Us</a>
+      <a href="/privacy-policy/" class="hover:text-foreground transition">Privacy Policy</a>
+      <a href="/terms-conditions/" class="hover:text-foreground transition">Terms & Conditions</a>
+      <a href="/disclaimer/" class="hover:text-foreground transition">Disclaimer</a>
+    </nav>
+    <p class="text-center text-xs text-muted-foreground mt-6">
+      © {new Date().getFullYear()} ReviByte Opinions. All rights reserved.
+    </p>
+  </div>
 </footer>
