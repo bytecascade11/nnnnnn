@@ -13,11 +13,14 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeExternalLinks from "rehype-external-links";
 import rehypeUnwrapImages from "rehype-unwrap-images";
 // Remark plugins
-import remarkDirective from "remark-directive"; /* Handle ::: directives as nodes */
-import { remarkAdmonitions } from "./src/plugins/remark-admonitions"; /* Add admonitions */
+import remarkDirective from "remark-directive";
+import { remarkAdmonitions } from "./src/plugins/remark-admonitions";
 import { remarkGithubCard } from "./src/plugins/remark-github-card";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time";
 import { expressiveCodeOptions, siteConfig } from "./src/site.config";
+
+// ADD THIS LINE
+import tina from "tinacms";
 
 // https://astro.build/config
 export default defineConfig({
@@ -26,34 +29,24 @@ export default defineConfig({
 		domains: ["webmention.io"],
 	},
 	integrations: [
+		// ADD TINA HERE (just one line)
+		tina({ legacy: false }),
+
 		expressiveCode(expressiveCodeOptions),
 		icon(),
 		sitemap(),
 		mdx(),
 		robotsTxt(),
 		webmanifest({
-			// See: https://github.com/alextim/astro-lib/blob/main/packages/astro-webmanifest/README.md
 			name: siteConfig.title,
-			short_name: "Astro_Cactus", // optional
+			short_name: "Astro_Cactus",
 			description: siteConfig.description,
 			lang: siteConfig.lang,
-			icon: "public/icon.svg", // the source for generating favicon & icons
+			icon: "public/icon.svg",
 			icons: [
-				{
-					src: "icons/apple-touch-icon.png", // used in src/components/BaseHead.astro L:26
-					sizes: "180x180",
-					type: "image/png",
-				},
-				{
-					src: "icons/icon-192.png",
-					sizes: "192x192",
-					type: "image/png",
-				},
-				{
-					src: "icons/icon-512.png",
-					sizes: "512x512",
-					type: "image/png",
-				},
+				{ src: "icons/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+				{ src: "icons/icon-192.png", sizes: "192x192", type: "image/png" },
+				{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" },
 			],
 			start_url: "/",
 			background_color: "#1d1f21",
@@ -104,7 +97,6 @@ export default defineConfig({
 function rawFonts(ext: string[]) {
 	return {
 		name: "vite-plugin-raw-fonts",
-		// @ts-expect-error:next-line
 		transform(_, id) {
 			if (ext.some((e) => id.endsWith(e))) {
 				const buffer = fs.readFileSync(id);
