@@ -13,7 +13,7 @@ const allPosts = await getAllPosts();
 const allPostsByDate = allPosts.sort(collectionDateSort) as CollectionEntry<"post">[];
 const latestPosts = allPostsByDate.slice(0, MAX_POSTS);
 
-// Pinned Posts, set to a max of 3;
+// Pinned Posts (max 3)
 const MAX_PINNED_POSTS = 3;
 const pinnedPosts = allPostsByDate.filter((p) => p.data.pinned).slice(0, MAX_PINNED_POSTS);
 
@@ -25,47 +25,62 @@ const latestNotes = allNotes
 	.slice(0, MAX_NOTES) as CollectionEntry<"note">[];
 ---
 
-<PageLayout meta={{ title: "Home" }}>
-	<section>
-		<h1 class="title mb-12">Hello World!</h1>
-		<p class="mb-4">
-			Hi, I’m a theme for Astro, a simple starter that you can use to create your website or blog.
-			If you want to know more about how you can customise me, add more posts, and make it your own,
-			click on the GitHub icon link below and it will take you to my repo.
-		</p>
-		<SocialList />
-	</section>
-	{
-		pinnedPosts.length > 0 && (
+<PageLayout meta={{ title: "ReviByte Opinions – Tech News & Honest Reviews" }}>
+	<main class="container mx-auto px-6 py-16 max-w-5xl">
+		<!-- Hero Section -->
+		<section class="text-center mb-20">
+			<h1 class="text-5xl md:text-7xl font-black mb-8 bg-gradient-to-r from-green-400 via-cyan-500 to-blue-600 bg-clip-text text-transparent">
+				ReviByte Opinions
+			</h1>
+			<p class="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto">
+				Daily Samsung & Apple leaks • AI breakthroughs • Android updates • Gaming news • Real opinions — no clickbait.
+			</p>
+
+			<!-- Category Buttons -->
+			<div class="flex flex-wrap justify-center gap-4">
+				<a href="/category/news"       class="px-6 py-3 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">News</a>
+				<a href="/category/samsung"    class="px-6 py-3 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">Samsung</a>
+				<a href="/category/apple"      class="px-6 py-3 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">Apple</a>
+				<a href="/category/ai"         class="px-6 py-3 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">AI</a>
+				<a href="/category/android"    class="px-6 py-3 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">Android</a>
+				<a href="/category/games"      class="px-6 py-3 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">Games</a>
+				<a href="/category/opinions"   class="px-6 py-3 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">Opinions</a>
+			</div>
+		</section>
+
+		<!-- Pinned Posts -->
+		{pinnedPosts.length > 0 && (
 			<section class="mt-16">
-				<h2 class="title mb-6 text-xl">Pinned Posts</h2>
-				<ul class="space-y-4" role="list">
+				<h2 class="title mb-8 text-2xl font-bold text-accent">Featured</h2>
+				<ul class="space-y-6" role="list">
 					{pinnedPosts.map((p) => (
-						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
+						<li>
 							<PostPreview post={p} />
 						</li>
 					))}
 				</ul>
 			</section>
-		)
-	}
-	<section class="mt-16">
-		<h2 class="title text-accent mb-6 text-xl"><a href="/posts/">Posts</a></h2>
-		<ul class="space-y-4" role="list">
-			{
-				latestPosts.map((p) => (
-					<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
+		)}
+
+		<!-- Latest Posts -->
+		<section class="mt-20">
+			<h2 class="title mb-8 text-2xl font-bold text-accent">
+				<a href="/posts/">Latest Posts</a>
+			</h2>
+			<ul class="space-y-6" role="list">
+				{latestPosts.map((p) => (
+					<li>
 						<PostPreview post={p} />
 					</li>
-				))
-			}
-		</ul>
-	</section>
-	{
-		latestNotes.length > 0 && (
-			<section class="mt-16">
-				<h2 class="title text-accent mb-6 text-xl">
-					<a href="/notes/">Notes</a>
+				))}
+			</ul>
+		</section>
+
+		<!-- Notes -->
+		{latestNotes.length > 0 && (
+			<section class="mt-20">
+				<h2 class="title mb-8 text-2xl font-bold text-accent">
+					<a href="/notes/">Quick Notes</a>
 				</h2>
 				<ul class="space-y-6" role="list">
 					{latestNotes.map((note) => (
@@ -75,6 +90,6 @@ const latestNotes = allNotes
 					))}
 				</ul>
 			</section>
-		)
-	}
+		)}
+	</main>
 </PageLayout>
