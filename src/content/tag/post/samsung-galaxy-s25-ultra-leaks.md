@@ -1,5 +1,5 @@
 ---
-title: "Samsung Galaxy S25 Ultra: All the Latest Leaks (December 2025)"
+title: "title: "S25 Ultra: All the Hottest Leaks Right Now"
 description: "Titanium design, Snapdragon 8 Elite, 200MP camera, Qi2 charging — everything confirmed before January launch."
 pubDate: 2025-12-06
 category: "samsung"
