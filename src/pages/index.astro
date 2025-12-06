@@ -1,4 +1,4 @@
-i---
+---
 import { type CollectionEntry, getCollection } from "astro:content";
 import PostPreview from "@/components/blog/PostPreview.astro";
 import Note from "@/components/note/Note.astro";
@@ -24,8 +24,8 @@ const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES) as Col
 		<h1 class="text-5xl md:text-7xl font-black mb-8 bg-gradient-to-r from-green-400 via-cyan-500 to-blue-600 bg-clip-text text-transparent">
 			ReviByte Opinions
 		</h1>
-		<p class="text-xl md:text-2xl text-muted-foreground mb-20 max-w-3xl mx-auto">
-			Daily Samsung & Apple leaks • AI breakthroughs • Android updates • Gaming news • Real opinions
+		<p class="text-xl md:text-2xl text-muted-foreground mb-20 max-w-3xl mx-auto leading-relaxed">
+			Samsung • Apple • AI • Android • Gaming • Tech News
 		</p>
 
 		{pinnedPosts.length > 0 && (
@@ -55,7 +55,6 @@ const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES) as Col
 					{latestNotes.map((note) => (
 						<li><Note note={note} as="h3" isPreview /></li>
 					))}
-				))}
 				</ul>
 			</section>
 		)}
