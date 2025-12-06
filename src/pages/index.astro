@@ -1,36 +1,33 @@
 ---
-import BaseLayout from "@/layouts/BaseLayout.astro";
+import PageLayout from "@layouts/Base.astro";
 ---
 
-<BaseLayout
-  title="ReviByte Opinions"
-  description="Daily tech news, Samsung & Apple leaks, AI, Android, Gaming and honest opinions."
->
-  <main class="container mx-auto px-6 py-16 max-w-5xl text-center">
+<PageLayout meta={{ title: "ReviByte Opinions" }}>
+  <main class="container mx-auto px-4 py-16 text-center">
     <!-- Big Title -->
-    <h1 class="text-5xl md:text-7xl font-black mb-8 bg-gradient-to-r from-green-400 via-cyan-500 to-blue-600 bg-clip-text text-transparent">
+    <h1 class="text-5xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-green-400 via-cyan-500 to-blue-600 bg-clip-text text-transparent">
       ReviByte Opinions
     </h1>
 
     <!-- Tagline -->
     <p class="text-xl md:text-2xl text-muted-foreground mb-16 max-w-3xl mx-auto leading-relaxed">
-      Fresh Samsung & Apple leaks • AI breakthroughs • Android updates • Gaming news • Real opinions — updated daily.
+      Daily tech news, honest Samsung & Apple reviews, AI breakthroughs, Android updates, gaming leaks and real opinions.
     </p>
 
     <!-- Category Buttons -->
-    <div class="flex flex-wrap justify-center gap-5 text-lg font-medium">
-      <a href="/category/news"       class="px-8 py-4 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">News</a>
-      <a href="/category/samsung"    class="px-8 py-4 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">Samsung</a>
-      <a href="/category/apple"      class="px-8 py-4 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">Apple</a>
-      <a href="/category/ai"         class="px-8 py-4 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">AI</a>
-      <a href="/category/android"    class="px-8 py-4 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">Android</a>
-      <a href="/category/games"      class="px-8 py-4 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">Games</a>
-      <a href="/category/opinions"   class="px-8 py-4 rounded-full bg-foreground/10 hover:bg-foreground/20 transition">Opinions</a>
+    <div class="flex flex-wrap justify-center gap-4 mb-16">
+      <a href="/category/news" class="px-6 py-3 bg-foreground/10 rounded-full hover:bg-foreground/20 transition text-sm font-medium">News</a>
+      <a href="/category/samsung" class="px-6 py-3 bg-foreground/10 rounded-full hover:bg-foreground/20 transition text-sm font-medium">Samsung</a>
+      <a href="/category/apple" class="px-6 py-3 bg-foreground/10 rounded-full hover:bg-foreground/20 transition text-sm font-medium">Apple</a>
+      <a href="/category/ai" class="px-6 py-3 bg-foreground/10 rounded-full hover:bg-foreground/20 transition text-sm font-medium">AI</a>
+      <a href="/category/android" class="px-6 py-3 bg-foreground/10 rounded-full hover:bg-foreground/20 transition text-sm font-medium">Android</a>
+      <a href="/category/games" class="px-6 py-3 bg-foreground/10 rounded-full hover:bg-foreground/20 transition text-sm font-medium">Games</a>
+      <a href="/category/opinions" class="px-6 py-3 bg-foreground/10 rounded-full hover:bg-foreground/20 transition text-sm font-medium">Opinions</a>
     </div>
 
-    <!-- Footer text -->
-    <p class="mt-20 text-muted-foreground text-lg">
+    <!-- Call to Action -->
+    <p class="text-lg text-muted-foreground">
       New articles every day — bookmark us now!
     </p>
   </main>
-</BaseLayout>
+</PageLayout>
