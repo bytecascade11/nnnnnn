@@ -5,7 +5,7 @@ pubDate: 2025-12-06
 category: samsung
 tags: ["Android", "samsung"]
 coverImage: "/images/s25-ultra-leak.jpg"
-pinned: true
+pinned: false
 ---
 
 # Samsung Galaxy S25 Ultra: All the Latest Leaks (December 2025)
