@@ -1,42 +1,48 @@
 ---
-title: "S25 Ultra: All the Hottest Leaks Right Now"
-description: "Titanium design, Snapdragon 8 Elite, 200MP camera, Qi2 charging — everything confirmed before January launch."
-pubDate: 2025-12-06
+title: "S26 Ultra: Early Rumors for 2026 Flagship"
+description: Bigger battery, 60W charging, upgraded telephoto – what we know so far about Samsung's next Ultra.
+pubDate: 2025-12-07
 category: samsung
-tags: ["Android", "samsung"]
-coverImage: "/images/s25-ultra-leak.jpg"
-pinned: false
+tags:
+  - Galaxy S26
+  - Rumors
+  - Battery
+  - Camera
+coverImage: /images/s26-ultra-concept.jpg
+pinned: true
 ---
 
-# Samsung Galaxy S25 Ultra: All the Latest Leaks (December 2025)
+# Samsung Galaxy S26 Ultra: Early Rumors Heating Up (December 2025)
 
-Samsung’s next flagship is just weeks away (rumored January 22, 2025 launch) and the leaks are coming in hot.
+The Galaxy S25 Ultra drops next week (January 22 Unpacked), but Samsung's already cooking the S26 Ultra for early 2026. Leaks are sparse this far out, but they're promising evolutionary upgrades over the S25 – think better endurance and zoom without reinventing the wheel. Here's the scoop from reliable sources like Ice Universe and Chinese tipsters.
 
 ### Design & Build
-- Titanium frame with **rounded corners** for better grip
-- New colors: Titanium Black, Gray, Green, Silver
-- 6.8" display with slimmer bezels
+- Slightly curved edges for even better ergonomics (less angular than S25's rounded titanium frame)  
+- Raised rear camera bump for a more "pro" camera vibe  
+- Colors teased: Black, gray, silver-blue, and a potential iPhone 17 Pro-inspired purple tint  
+- Size: Similar to S25 Ultra (6.8-inch display), but rumors hint at a slimmer profile (~8.2mm thick, ~219g)
 
 ### Camera
-- 200MP main sensor
-- 50MP ultra-wide (huge upgrade!)
-- 10MP 3× and 50MP 5× periscope
+- Main 200MP sensor carries over, but the **3x telephoto gets a 12MP upgrade** (from 10MP) for sharper portraits  
+- Potential return of variable aperture (seen on S10) for low-light magic  
+- Major telephoto push across the S26 lineup – expect 5x periscope staying at 50MP, but with AI enhancements for video  
+- Selfie cam might add stabilization to fight shaky videos (inspired by iPhone's tremor reduction)
 
 ### Performance
-- Snapdragon 8 Elite (45% faster GPU)
-- 12GB RAM
-- One UI 7 + Android 15
+- Snapdragon 8 Gen 4 (or Exynos equivalent) – 20-30% faster than S25's Elite chip  
+- RAM: 12GB base, up to 16GB for power users  
+- One UI 8.5 with deeper Galaxy AI 3.0 (e.g., better sketch-to-image and auto-zoom on selfies)
 
 ### Battery & Charging
-- 5,000mAh
-- 45W wired, 25W wireless + **Qi2** support
+- **Big win**: 5,200mAh battery (up from S25's 5,000mAh) for longer video playback (~35 hours)  
+- Wired charging jumps to **60W** (from 45W) – full charge in ~30 minutes  
+- Wireless hits 25W (up from 15W) + Qi2 support for MagSafe-like accessories
 
 ### Price & Launch
-- $1,299 expected
-- January 22 Unpacked event
+- Expected: $1,299 starting (same as S25 Ultra)  
+- Reveal: Late January 2026 (earlier than usual February slot)  
+- Release: Mid-February 2026  
 
-Samsung is going all-in on AI this year — expect Galaxy AI 2.0.
+Samsung's playing it safe post-S25, but that battery bump could make the S26 Ultra a day-long beast. With S25's launch imminent, will the S26 need bolder changes to compete with iPhone 17 Pro rumors? Drop your takes below – battery upgrade or bust?
 
-What do you think — will the S25 Ultra beat the iPhone 17 Pro? Drop your predictions in the comments!
-
-Sources: [SamMobile](https://www.sammobile.com/news/galaxy-s25-ultra-camera-leak-50mp-ultrawide/), [Ice Universe on X](https://x.com/UniverseIce/status/1870001234567890), [Forbes](https://www.forbes.com/sites/paulmonckton/2024/12/31/new-samsung-leak-confirms-disappointing-galaxy-s25-ultra-camera-upgrade/)
+Sources: [TechRadar](https://www.techradar.com/phones/samsung-galaxy-phones/a-new-samsung-galaxy-s26-ultra-rumor-hints-at-a-battery-upgrade-for-the-premium-flagship-phone), [Tom's Guide](https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s26-ultra-vs-s25-ultra-an-upgrade-worth-making), [GSMArena](https://www.gsmarena.com/samsung_galaxy_s26_ultra_battery_size-news-70414.php), [CNET](https://www.cnet.com/tech/mobile/for-the-galaxy-s26-ultra-samsung-needs-to-embrace-these-three-iphone-17-pro-features/)
