@@ -1,18 +1,20 @@
-import { z, defineCollection } from 'astro:content';
+import { defineCollection, z } from 'astro:content';
 
-const blog = defineCollection({
+const postCollection = defineCollection({
   type: 'content',
   schema: z.object({
-    title: z.string(),
-    description: z.string().optional(),
-    pubDate: z.coerce.date(),     // this accepts strings like "2025-12-07" too
-    category: z.string().optional(),
+    title: z.string().max(60),
+    description: z.string().min(50).max(160),
+    publishDate: z.date(),
+    updatedDate: z.date().optional(),
     tags: z.array(z.string()).optional(),
-    coverImage: z.string().optional(),
-    pinned: z.boolean().optional(),
-  }),
+    coverImage: z.object({ src: z.string(), alt: z.string() }).optional(),
+    ogImage: z.string().optional(),
+    draft: z.boolean().default(false)
+  })
 });
 
 export const collections = {
-  blog,        // ← this activates src/content/blog/
+  post: postCollection,
+  // note and tag collections optional — ignore for now
 };
