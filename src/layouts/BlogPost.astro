@@ -36,6 +36,23 @@ const readingTime: string = remarkPluginFrontmatter.readingTime;
 			>
 				<slot />
 				<WebMentions />
+				
+				<!-- TAG NAVIGATION – ADDED HERE -->
+				<div class="mt-16 pt-8 border-t border-gray-200 dark:border-gray-800">
+				  <p class="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-5">Filed under:</p>
+				  <div class="flex flex-wrap gap-3">
+				    {post.data.tags?.map((tag) => (
+				      <a 
+				        href={`/tags/${tag.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+				        class="inline-block px-5 py-2.5 text-xs font-medium rounded-full bg-gradient-to-r from-blue-100 to-cyan-100 text-blue-800 hover:from-blue-200 hover:to-cyan-200 dark:from-blue-900/50 dark:to-cyan-900/50 dark:text-blue-200 transition"
+				      >
+				        {tag}
+				      </a>
+				    ))}
+				  </div>
+				</div>
+				<!-- END OF TAG NAVIGATION -->
+				
 			</div>
 		</div>
 	</article>
@@ -66,7 +83,6 @@ const readingTime: string = remarkPluginFrontmatter.readingTime;
 
 	function callback(entries: IntersectionObserverEntry[]) {
 		entries.forEach((entry) => {
-			// only show the scroll to top button when the heading is out of view
 			scrollBtn.dataset.show = (!entry.isIntersecting).toString();
 		});
 	}
