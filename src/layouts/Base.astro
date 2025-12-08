@@ -2,7 +2,7 @@
 import BaseHead from "@/components/BaseHead.astro";
 import SkipLink from "@/components/SkipLink.astro";
 import ThemeProvider from "@/components/ThemeProvider.astro";
-import Footer from "@/components/layout/Footer.astro";
+import Footer from "../components/Footer.astro";   {/* ← FIXED PATH */}
 import Header from "@/components/layout/Header.astro";
 import { siteConfig } from "@/site.config";
 import type { SiteMeta } from "@/types";
@@ -29,7 +29,7 @@ const {
 		<main id="main">
 			<slot />
 		</main>
-		<Footer />
+		<Footer />   {/* ← This will now work perfectly */}
 		<script is:inline type="speculationrules">
 			{
 				"prefetch": [
