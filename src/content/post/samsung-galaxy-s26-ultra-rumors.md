@@ -7,10 +7,8 @@ tags:
   - Galaxy S26
   - Rumors
   - Android
-coverImage:
-  src: "/images/s26-ultra-concept.jpg"
-  alt: "Samsung Galaxy S26 Ultra concept"
-ogImage: "/images/s26-ultra-concept.jpg"
+coverImage: "/src/assets/images/s26-ultra-concept.jpg"
+ogImage: "/src/assets/images/s26-ultra-concept.jpg"
 draft: false
 ---
 
