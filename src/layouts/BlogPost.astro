@@ -37,7 +37,7 @@ const readingTime: string = remarkPluginFrontmatter.readingTime;
 				<slot />
 				<WebMentions />
 				
-				<!-- TAG NAVIGATION – ADDED HERE -->
+				<!-- TAG NAVIGATION -->
 				<div class="mt-16 pt-8 border-t border-gray-200 dark:border-gray-800">
 				  <p class="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-5">Filed under:</p>
 				  <div class="flex flex-wrap gap-3">
@@ -51,37 +51,47 @@ const readingTime: string = remarkPluginFrontmatter.readingTime;
 				    ))}
 				  </div>
 				</div>
-				<!-- END OF TAG NAVIGATION -->
-				
+
+				<!-- GISCUS COMMENTS – YOUR EXACT CODE -->
+				<div class="mt-20 pt-10 border-t border-gray-200 dark:border-gray-800">
+				  <script src="https://giscus.app/client.js"
+				        data-repo="bytecascade11/nnnnnn"
+				        data-repo-id="R_kgDOQjbnog"
+				        data-category="Comments"
+				        data-category-id="DIC_kwDOQjbnos4Czi9D"
+				        data-mapping="pathname"
+				        data-strict="0"
+				        data-reactions-enabled="1"
+				        data-emit-metadata="0"
+				        data-input-position="bottom"
+				        data-theme="preferred_color_scheme"
+				        data-lang="en"
+				        crossorigin="anonymous"
+				        async>
+				  </script>
+				</div>
+
 			</div>
 		</div>
 	</article>
+
 	<button
 		class="hover:border-link fixed end-4 bottom-8 z-90 flex h-10 w-10 translate-y-28 cursor-pointer items-center justify-center rounded-full border-2 border-transparent bg-zinc-200 text-3xl opacity-0 transition-all transition-discrete duration-300 data-[show=true]:translate-y-0 data-[show=true]:opacity-100 sm:end-8 sm:h-12 sm:w-12 dark:bg-zinc-700"
 		data-show="false"
 		id="to-top-btn"
 	>
 		<span class="sr-only">Back to top</span>
-		<svg
-			aria-hidden="true"
-			class="h-6 w-6"
-			fill="none"
-			focusable="false"
-			stroke="currentColor"
-			stroke-width="2"
-			viewBox="0 0 24 24"
-			xmlns="http://www.w3.org/2000/svg"
-		>
+		<svg aria-hidden="true" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
 			<path d="M4.5 15.75l7.5-7.5 7.5 7.5" stroke-linecap="round" stroke-linejoin="round"></path>
 		</svg>
 	</button>
 </BaseLayout>
 
 <script>
-	const scrollBtn = document.getElementById("to-top-btn") as HTMLButtonElement;
-	const targetHeader = document.getElementById("blog-hero") as HTMLDivElement;
+	const scrollBtn = document.getElementById("to-top-btn");
+	const targetHeader = document.getElementById("blog-hero");
 
-	function callback(entries: IntersectionObserverEntry[]) {
+	function callback(entries) {
 		entries.forEach((entry) => {
 			scrollBtn.dataset.show = (!entry.isIntersecting).toString();
 		});
