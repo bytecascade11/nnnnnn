@@ -1,5 +1,5 @@
 ---
-title: "S26 Ultra: Early Rumors for Samsung's 2026 Flagship"
+title: 'S26 Ultra: Early Rumors for Samsung''s 2026 Flagship'
 description: "60W charging, 12MP telephoto upgrade, vertical camera — all the latest Galaxy S26 Ultra leaks."
 publishDate: "2025-12-07"
 updateDate: "2025-12-07"
@@ -37,7 +37,7 @@ The S25 Ultra drops in two weeks — but the S26 Ultra leaks have already starte
 
 More leaks every week — stay tuned.
 
-💬 **What do you want most on the S26 Ultra? Drop it below!**
+What do you want most on the S26 Ultra? Drop it below!
 
 ---
 
