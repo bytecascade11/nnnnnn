@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../layouts/Base.astro";
+
+const meta = {
+  title: "About the Editor – Oke iSamuel | ByteCascade",
+  description: "Meet Oke Sunday Samuel (iSamuel) – Physics & Electronics student, founder of ByteCascade Technology Opinion. Honest, deep-dive tech analysis for real people in Nigeria and beyond."
+};
+---
+
+<BaseLayout meta={meta}>
+  <article class="prose prose-lg mx-auto max-w-4xl px-6 py-16 dark:prose-invert">
+    <h1 class="mb-4 text-4xl font-bold">About the Editor</h1>
+    <p class="lead text-xl text-gray-600 dark:text-gray-300">
+      Honest, physics-based tech analysis — by <strong>Oke "iSamuel" Sunday Samuel</strong>
+    </p>
+
+    <div class="my-12 flex flex-col items-center gap-8 md:flex-row">
+      <img src="/src/assets/images/isamuel.jpg" alt="Oke iSamuel" class="h-48 w-48 rounded-full object-cover shadow-2xl" />
+      <div>
+        <p class="text-lg leading-relaxed">
+          I’m <strong>Oke Sunday Samuel</strong> — everyone calls me <em>iSamuel</em>.<br>
+          Physics & Electronics student. Founder of <strong>ByteCascade Technology Opinion</strong>.<br>
+          I write clear, honest, deep-dive tech analysis for real people — no hype, no paid praise, just facts and clarity.
+        </p>
+      </div>
+    </div>
+
+    <p>
+      ByteCascade started as notebook scribbles about battery physics, camera sensors, and how phones <em>actually</em> perform in Nigerian conditions: power outages, dusty roads, prepaid data, and real repair costs.
+    </p>
+
+    <p>
+      Today it’s a trusted source for thousands who want tech advice that respects their reality — not just global launch hype.
+    </p>
+
+    <h2>My promise to you</h2>
+    <ul>
+      <li>Every sponsored post is clearly marked</li>
+      <li>I never trade money for fake praise</li>
+      <li>Full editorial control stays with me</li>
+      <li>Reader feedback shapes what I analyze next</li>
+    </ul>
+
+    <p class="mt-12 text-center italic text-gray-600 dark:text-gray-400">
+      Thanks for trusting ByteCascade.<br>
+      — Oke "iSamuel"
+    </p>
+  </article>
+</BaseLayout>
