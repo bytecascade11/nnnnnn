@@ -1,0 +1,46 @@
+---
+// src/pages/tags/[tag].astro
+import BaseLayout from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("post");
+  const tags = new Set(posts.flatMap(p => p.data.tags || []));
+  
+  return Array.from(tags).map(tag => ({
+    params: { tag: tag.toLowerCase().replace(/[^a-z0-9]+/g, "-") },
+    props: { tag }
+  }));
+}
+
+const { tag } = Astro.props;
+const posts = (await getCollection("post"))
+  .filter(p => p.data.tags?.map(t => t.toLowerCase()).includes(tag.toLowerCase()))
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+---
+
+<BaseLayout meta={{ title: `Posts tagged: ${tag}` }}>
+  <main class="container mx-auto px-6 py-16 max-w-5xl">
+    <h1 class="text-4xl font-bold mb-8">Posts tagged: <span class="text-blue-600 dark:text-blue-400">{tag}</span></h1>
+    
+    {posts.length === 0 ? (
+      <p>No posts with this tag yet.</p>
+    ) : (
+      <div class="grid gap-8 md:grid-cols-2">
+        {posts.map(post => (
+          <article class="border border-gray-200 dark:border-gray-800 rounded-lg p-6 hover:shadow-lg transition">
+            <h2 class="text-2xl font-bold">
+              <a href={`/${post.slug}`} class="hover:text-blue-600 dark:hover:text-blue-400">
+                {post.data.title}
+              </a>
+            </h2>
+            <p class="text-gray-600 dark:text-gray-400 mt-2">{post.data.description}</p>
+            <time class="text-sm text-gray-500">
+              {new Date(post.data.publishDate).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
+            </time>
+          </article>
+        ))}
+      </div>
+    )}
+  </main>
+</BaseLayout>
