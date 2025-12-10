@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
 	author: "iSamuel",
 	title: "ReviByte Opinions",
 	description:
-		"ByteCascade delivers the latest tech news, gadget opinions, Android updates, and in-depth guides to keep you informed and ahead in the digital world.",
+		"ReviByte delivers the latest tech news, gadget opinions, Android updates, and in-depth guides to keep you informed and ahead in the digital world.",
 	lang: "en",
 	ogLocale: "en_US",
 	date: {
@@ -16,31 +16,31 @@ export const siteConfig: SiteConfig = {
 			year: "numeric",
 		},
 	},
-	url: "https://reviivyetechu.vercel.app/",
+	url: "https://revibyte.blog/",
 };
 
-// TOP NAVIGATION ONLY – exactly what you want
+// FIXED: Top navigation now points to real tag pages
 export const menuLinks: { path: string; title: string }[] = [
 	{ path: "/", title: "HOME" },
-	{ path: "/category/news/", title: "NEWS" },
-	{ path: "/category/samsung/", title: "SAMSUNG" },
-	{ path: "/category/apple/", title: "APPLE" },
-	{ path: "/category/ai/", title: "AI" },
-	{ path: "/category/android/", title: "ANDROID" },
-	{ path: "/category/games/", title: "GAMES" },
-	{ path: "/category/opinions/", title: "OPINIONS" },
+	{ path: "/tags/news", title: "NEWS" },
+	{ path: "/tags/samsung", title: "SAMSUNG" },
+	{ path: "/tags/apple", title: "APPLE" },
+	{ path: "/tags/ai", title: "AI" },
+	{ path: "/tags/android", title: "ANDROID" },
+	{ path: "/tags/games", title: "GAMES" },
+	{ path: "/tags/opinions", title: "OPINIONS" },
 ];
 
-// FOOTER LINKS ONLY – these will be used after you apply the Footer.astro fix
+// Footer links (also fixed to match your real pages)
 export const footerLinks: { path: string; title: string }[] = [
-	{ path: "/about-the-editor/", title: "About the Editor" },
-	{ path: "/contact-us/", title: "Contact Us" },
-	{ path: "/privacy-policy/", title: "Privacy Policy" },
-	{ path: "/terms-conditions/", title: "Terms & Conditions" },
-	{ path: "/disclaimer/", title: "Disclaimer" },
+	{ path: "/about", title: "About the Editor" },
+	{ path: "/contact", title: "Contact Us" },
+	{ path: "/privacy", title: "Privacy Policy" },
+	{ path: "/terms", title: "Terms & Conditions" },
+	{ path: "/disclaimer", title: "Disclaimer" },
 ];
 
-// Code block styling – leave exactly like this
+// Code block styling – unchanged
 export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 	styleOverrides: {
 		borderRadius: "4px",
