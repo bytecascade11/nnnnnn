@@ -13,6 +13,7 @@ tags:
   - CODM
   - Naija Gamers
   - Global Gaming
+  - Opinions
 coverImage:
   src: "/src/assets/images/best-gaming-phones-2025-cover.jpg"
   alt: "All 7 gaming phones lined up with RGB glowing in dark room"
