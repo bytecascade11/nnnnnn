@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/Base.astro";
+import profileImg from "../assets/images/isamuel.jpg";   {/* ← ONLY THIS LINE ADDED */}
 
 const meta = {
   title: "About ReviByte Opinion — My Story, My Promise | Oke iSamuel",
@@ -16,11 +17,11 @@ const meta = {
 
     <div class="my-16 flex flex-col items-center gap-10 md:flex-row">
       <img
-  src="/src/assets/images/isamuel.jpg"
-  alt="Oke iSamuel — Founder & Technology Analyst at ReviByte Opinion"
-  class="h-56 w-56 rounded-full object-cover shadow-2xl ring-4 ring-blue-100 dark:ring-blue-900"
-  loading="lazy"
-/>
+        src={profileImg}   {/* ← ONLY THIS LINE CHANGED */}
+        alt="Oke iSamuel — Founder & Technology Analyst at ReviByte Opinion"
+        class="h-56 w-56 rounded-full object-cover shadow-2xl ring-4 ring-blue-100 dark:ring-blue-900"
+        loading="lazy"
+      />
       <div class="text-lg leading-relaxed">
         <p>
           ReviByte began as a practical experiment: observe, take notes, and explain. I had no professional studio, no PR contacts — just curiosity, a deep understanding of physics and electronics, and a stubborn desire to analyze technology slowly and properly.
