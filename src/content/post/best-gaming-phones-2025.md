@@ -1,5 +1,6 @@
 ---
-title: "Best Gaming Phones 2025: Top 7 Picks for PUBG, Genshin & Call of Duty (Global Thermal Test)"
+title: "Best Gaming Phones 2025: Top 7 Picks"
+seoTitle: "Best Gaming Phones 2025: Top 7 Picks for PUBG, Genshin & Call of Duty (Global Thermal Test)"
 description: "After frying two flagships and spending over $5,500 / ₦8 million on phones this year, these are the ONLY 7 gaming phones I trust in 2025 for Conqueror push, Spiral Abyss 36-star, and CODM Legendary grind. This is a full, unfiltered review featuring real-world heat tests in extreme tropical climates, battery truth, and my personal ranking."
 publishDate: "2025-12-28"
 updatedDate: "2025-12-28"
@@ -14,6 +15,7 @@ tags:
   - Naija Gamers
   - Global Gaming
   - Opinions
+    
 coverImage:
   src: "/src/assets/images/best-gaming-phones-2025-cover.jpg"
   alt: "All 7 gaming phones lined up with RGB glowing in dark room"
