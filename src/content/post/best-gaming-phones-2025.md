@@ -158,13 +158,15 @@ No RGB. No fan. No nonsense.
 
 ## 📊 Final Ranking Table
 
-(unchanged — your table format is perfect)
-
----
-
-## 🎮 Must-Have Gaming Accessories
-
-(unchanged — this is good for monetization)
+| Rank | Phone Model            | Key Strengths                                   | Best For                         |
+|------|-------------------------|--------------------------------------------------|----------------------------------|
+| 1️⃣   | **RedMagic 10 Pro**     | Best cooling, top FPS stability, gaming triggers | Competitive players / PUBG / COD |
+| 2️⃣   | **ROG Phone 9 Pro**     | Ultimate accessories, best thermals with cooler | Streamers & long sessions        |
+| 3️⃣   | **Black Shark 6 Pro**   | Great performance, good price                    | Value seekers                    |
+| 4️⃣   | **iPhone 16 Pro Max**   | Best frame consistency, strong optimization      | Genshin Impact & iOS gamers      |
+| 5️⃣   | **Poco F7 Ultra**       | High refresh rate, excellent budget performance  | Budget gamers                    |
+| 6️⃣   | **Samsung S25 Ultra**   | Superb display, good thermals                    | All-round gaming + photography   |
+| 7️⃣   | **Vivo iQOO 13**        | Snapdragon 8 Gen 4 power, fast charging          | Balanced gaming                  |
 
 ---
 
@@ -180,14 +182,7 @@ The **ROG Phone 9 Pro + AeroActive X Pro Cooler** combo has the most advanced th
 iPhone wins in **frame consistency** and optimization, but Android gaming phones offer **higher refresh rate, triggers, better cooling, and faster charging**.
 
 ### ❓ Do gaming phones overheat in hot countries?
-Some do — but RedMagic, ROG Phone, and Black Shark stay stable even in **40°C environments** based on this real-world testing.
-
----
-
-## ⚠️ Disclosure
-
-Some product links in this article may be affiliate links.  
-This does **not** affect my ranking or opinion — every phone reviewed here was personally tested in real-world gaming conditions.
+Some do — but RedMagic, ROG Phone, and Black Shark stay stable even in **40°C environments** based on real-world testing.
 
 ---
 
