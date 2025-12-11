@@ -15,13 +15,11 @@ ogImage: "/images/iphone-14-15-16-comparison.jpg"
 draft: false
 ---
 
+![iPhone 14 vs iPhone 15 vs iPhone 16 side-by-side comparison](/images/iphone-compare.jpg)
 
-![iPhone 14 vs iPhone 15 vs iPhone 16 side-by-side comparison](/src/image/iphone-compare.jpg)
-
-**Published on December 11, 2025 • ReviByte — Research & Opinions**
+**Published on December 30, 2025 • ReviByte — Research & Opinions**
 
 This longform comparison is written as ReviByte's researcher analysis — practical, step-by-step, and rooted in real-world performance, not marketing words. Expect clear buying advice, tested tips, and plain-language verdicts for readers in 2025.
-
 ## Why this comparison matters in 2025
 Smartphone refresh cycles happen fast. By the time a new iPhone drops, many of its headline improvements have already seeped into the conversation — but what really matters is how those changes affect everyday use: battery life through a full day, camera versatility for real photos, and whether the performance bump is worth the price. ReviByte's researcher breaks down the differences between the iPhone 14, iPhone 15 and iPhone 16 so readers can choose the one that fits their needs, not just the one with the flashiest spec sheet.
 
