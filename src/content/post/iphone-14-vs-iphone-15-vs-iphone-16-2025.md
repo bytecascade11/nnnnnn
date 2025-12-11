@@ -9,9 +9,9 @@ tags:
   - Reviews
   - Comparison
 coverImage:
-  src: "/images/iphone-comparison.jpg"
+  src: "/src/assets/images/iphone-comparison.jpg"
   alt: "iPhone 14, 15 and 16 side by side"
-ogImage: "/images/iphone-comparison.jpg"
+ogImage: "/src/assets/images/iphone-comparison.jpg"
 draft: false
 ---
 
