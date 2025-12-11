@@ -4,12 +4,20 @@ description: "Testing that posts finally show up on the homepage."
 publishDate: "2025-12-07"
 pinned: true
 draft: false
+tags:
+  - news
+  - launch
+  - update
+  - opinions
 ---
 
 # Hello World from ReviByte!
 
-This is the first real post.  
-If you can see this, the blog is finally working perfectly.
+Welcome to **ReviByte** — the new home for clean, honest, and sharp tech opinions.  
+This is officially the first real post, and if you're reading this, everything is now working perfectly!
 
-More fire reviews coming soon — Samsung, Xiaomi, OnePlus,  
-you name it!
+I built this space to share genuine reviews, quick opinions, helpful guides, and everyday tech discoveries.  
+From Samsung to Xiaomi, iPhone to OnePlus, budget devices to premium beasts — I’ll cover everything that actually matters.
+
+Thanks for checking out the very first post.  
+More fire reviews and comparisons are coming soon. Stay tuned!
