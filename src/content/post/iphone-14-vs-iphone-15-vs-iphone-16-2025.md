@@ -27,7 +27,7 @@ Smartphone refresh cycles happen fast. By the time a new iPhone drops, many of i
 Every reader is different, so the analysis covers five practical pillars: design & build, performance & battery, camera systems, software & features, and value (cost + longevity). For each pillar, strengths and weaknesses are called out. Where useful, step-by-step checks help readers decide quickly at the end of each section.
 
 ## Design and build — feel, ergonomics and durability
-![iPhone 16 design and build quality](/src/image/iphone-16.jpg)
+![iPhone 16 design and build quality](/src/image/iphone-16.png)
 
 At first glance the three phones share Apple's design language: flat edges, minimal bezels, and premium materials. Differences come down to subtle shifts that affect daily ergonomics and resilience.
 
@@ -46,7 +46,7 @@ All three carry IP68 ratings. Drops are still the #1 cause of failure — always
 3. Factor in the cost of a case.
 
 ## Performance & battery — real-world speed and endurance
-![iPhone 16 performance and battery life](/src/image/iphone-16.jpg)
+![iPhone 16 performance and battery life](/src/image/iphone-16.png)
 
 Raw CPU numbers matter, but real-world optimization decides everything.
 
@@ -69,7 +69,7 @@ iPhone 15 and 16 use USB-C (faster charging + universal cables).
 3. Budget priority → iPhone 14 still excellent
 
 ## Camera systems — what changes across generations
-![iPhone 16 camera system and samples](/src/image/iphone-16.jpg)
+![iPhone 16 camera system and samples](/src/image/iphone-16.png)
 
 ### Core hardware differences
 - Larger sensors on 15 and 16 → better light capture
@@ -139,9 +139,9 @@ Newer = many more years of major iOS updates. iPhone 16 will be supported the lo
 
 ## Who should choose each phone?
 
-![iPhone 14](/src/image/iphone-14.jpg)
+![iPhone 14](/src/image/iphone-14.png)
 ![iPhone 15](/src/image/iphone-15.jpg)
-![iPhone 16](/src/image/iphone-16.jpg)
+![iPhone 16](/src/image/iphone-16.png)
 
 ### Buy iPhone 14 if…
 - You want maximum savings or a secondary phone
