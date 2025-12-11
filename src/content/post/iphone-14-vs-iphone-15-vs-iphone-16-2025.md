@@ -1,9 +1,9 @@
 ---
 title: "iPhone 14 vs iPhone 15 vs iPhone 16 — Which Should You Buy?"
 description: "A deep, hands-on-style comparison from ReviByte's researcher: iPhone 14, iPhone 15 and iPhone 16 — who wins in performance, camera, battery, value and real-world use in 2025."
-publishDate: 2025-12-11
+publishDate: "2025-12-11"
 heroImage: "/src/image/iphone-compare.jpg"
-tags: ["iphone", "apple", "comparison", "2025", "review","Opinions"]
+tags: ["iphone", "apple", "comparison", "2025", "review", "Opinions"]
 ---
 
 
