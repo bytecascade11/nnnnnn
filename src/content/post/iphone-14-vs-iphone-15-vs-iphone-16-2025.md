@@ -1,6 +1,6 @@
 ---
-title: "iPhone 14 vs 15 vs 16 in 2025 – Which Is Still Worth It?"
-description: "Real-world battery, camera, and performance comparison after months of daily use in Nigeria. No spec-sheet lies — just the truth."
+title: "iPhone 14 vs 15 vs 16 (2025) – Which to Buy?"
+description: "Real-world battery, camera, and performance comparison after using all three in Nigeria for months. No specs sheet nonsense — just the truth."
 publishDate: "2025-12-30"
 updatedDate: "2025-12-30"
 tags:
