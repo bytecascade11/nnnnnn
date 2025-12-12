@@ -1,8 +1,8 @@
 ---
 title: "iPhone 14 vs 15 vs 16 (2025) – Which to Buy?"
 description: "Real-world battery, camera, and performance comparison after using all three in Nigeria for months. No specs sheet nonsense — just the truth."
-publishDate: "2025-12-30"
-updatedDate: "2025-12-30"
+publishDate: "2025-12-11"
+updatedDate: "2025-12-11"
 tags:
   - Apple
   - iPhone
@@ -17,7 +17,7 @@ draft: false
 
 ![iPhone 14 vs iPhone 15 vs iPhone 16 side-by-side comparison](/images/iphone-compare.jpg)
 
-**Published on December 30, 2025 • ReviByte — Research & Opinions**
+**Published on December 11, 2025 • ReviByte — Research & Opinions**
 
 This longform comparison is written as ReviByte's researcher analysis — practical, step-by-step, and rooted in real-world performance, not marketing words. Expect clear buying advice, tested tips, and plain-language verdicts for readers in 2025.
 ## Why this comparison matters in 2025
