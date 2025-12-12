@@ -13,9 +13,9 @@ tags:
   - Nigeria Tech
   - Opinions 
 coverImage:
-  src: "/images/10-free-ai-2025-cover.webp"
+  src: "/images/10-free-ai-2025-cover.jpg"
   alt: "MacBook Pro in a Lagos apartment with 10 different free AI tools open at 3 a.m. - The era of paywalled AI is over."
-ogImage: "/images/10-free-ai-2025-og.webp"
+ogImage: "/images/10-free-ai-2025-og.jpg"
 draft: false
 ---
 
@@ -46,7 +46,7 @@ I tested 93 tools this year. Only these ten survived daily abuse and still live 
   </ol>
 </div>
 
-![My actual MacBook dock at 3:12 a.m. — everything here is 100% free and production-ready](/images/real-dock-late-night.webp)
+![My actual MacBook dock at 3:12 a.m. — everything here is 100% free and production-ready](/images/real-dock-late-night.jpg)
 
 <h2 id="the-market-shift-why-this-list-matters">The Market Shift: Why This List Matters</h2>
 
@@ -62,7 +62,7 @@ GitHub Copilot is now ₦18,000/month. Blackbox is unlimited and somehow faster 
 
 **Key Feature:** Codebase-aware chat and automated migration scripts.
 
-![Blackbox turning ancient WordPress plugin into modern Laravel](/images/blackbox-laravel-magic.webp)
+![Blackbox turning ancient WordPress plugin into modern Laravel](/images/blackbox-laravel-magic.jpg)
 
 ### 9. FlowGPT – The underground prompt empire
 
@@ -86,7 +86,7 @@ Hugging Face finally built a beautiful, lightweight frontend for open-source LLM
 
 All completely free. No queue between 11 p.m.– 7 a.m. WAT. I’m literally drafting this article on Llama 405B right now. **Speed? 82 tokens/sec** on my ₦850k MacBook. Insane.
 
-![HuggingChat running Llama 405B at full speed](/images/huggingchat-405b-speed.webp)
+![HuggingChat running Llama 405B at full speed](/images/huggingchat-405b-speed.jpg)
 
 ### 7. Perplexity Collections – My ₦2.1 million accountant replacement
 
@@ -110,12 +110,12 @@ Ideogram quietly removed the daily credit limit entirely if you’re logged in (
 
 Every single thumbnail on my channel since September? Ideogram. Cost: **₦0**.
 
-![Ideogram generating perfect “Jollof vs Jollof Rice” thumbnail](/images/ideogram-jollof-perfect.webp)
+![Ideogram generating perfect “Jollof vs Jollof Rice” thumbnail](/images/ideogram-jollof-perfect.jpg)
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 not-prose my-12">
-  <img src="/images/ideogram-thumb-1.webp" alt="Thumbnail 1 made with Ideogram" loading="lazy" />
-  <img src="/images/ideogram-thumb-2.webp" alt="Thumbnail 2 made with Ideogram" loading="lazy" />
-  <img src="/images/ideogram-thumb-3.webp" alt="Thumbnail 3 made with Ideogram" loading="lazy" />
+  <img src="/images/ideogram-thumb-1.jpg" alt="Thumbnail 1 made with Ideogram" loading="lazy" />
+  <img src="/images/ideogram-thumb-2.jpg" alt="Thumbnail 2 made with Ideogram" loading="lazy" />
+  <img src="/images/ideogram-thumb-3.jpg" alt="Thumbnail 3 made with Ideogram" loading="lazy" />
 </div>
 
 ### 5. NotebookLM – Google accidentally built a demon
@@ -151,7 +151,7 @@ Free for everyone since December 2nd. Limits are comically high — I’ve sent 
 
 My go-to for spicy takes and cultural sentiment analysis.
 
-![Grok 3 perfectly explaining a Lagos traffic meme](/images/grok-lagos-traffic-meme.webp)
+![Grok 3 perfectly explaining a Lagos traffic meme](/images/grok-lagos-traffic-meme.jpg)
 
 ### 2. tldv.io + Fireflies – Meeting notes are now extinct
 
@@ -176,8 +176,8 @@ The real number one. Cursor is a full VS Code fork built from the ground up for 
 I built a full SaaS dashboard, my personal finance tracker, and three client landing pages all in November using only Cursor free.
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-10 not-prose my-16">
-  <img src="/images/cursor-before-trash.webp" alt="My terrible Tailwind code before Cursor" loading="lazy" />
-  <img src="/images/cursor-after-godtier.webp" alt="Cursor turned it into clean, accessible components in 14 seconds" loading="lazy" />
+  <img src="/images/cursor-before-trash.jpg" alt="My terrible Tailwind code before Cursor" loading="lazy" />
+  <img src="/images/cursor-after-godtier.jpg" alt="Cursor turned it into clean, accessible components in 14 seconds" loading="lazy" />
 </div>
 
 ---
@@ -255,7 +255,7 @@ Drop “SEND TEMPLATE” in the comments or DM me on X → **@revibyte**. I’ll
 
 Now stop reading and go build something great.
 
-![Me drinking garri while AI pays my bills](/images/garri-and-ai-money.webp)
+![Me drinking garri while AI pays my bills](/images/garri-and-ai-money.jpg)
 ---
 ### Frequently Asked Questions (FAQ)
 
