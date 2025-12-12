@@ -13,10 +13,25 @@ interface Props {
 
 const { post } = Astro.props;
 const { ogImage, title, description, updatedDate, publishDate } = post.data;
-const socialImage = ogImage ?? `/og-image/${post.id}.png`;
-const articleDate = updatedDate?.toISOString() ?? publishDate.toISOString();
+
+// Render post so we can inspect content
 const { headings, remarkPluginFrontmatter } = await render(post);
 const readingTime: string = remarkPluginFrontmatter.readingTime;
+
+// ⭐ AUTO EXTRACT FIRST IMAGE FROM POST BODY
+const firstImageMatch = remarkPluginFrontmatter.rawContent?.match(/<img[^>]+src="([^">]+)"/);
+const autoOG = firstImageMatch?.[1];
+
+// ⭐ DEFAULT IF NOTHING IS FOUND
+const defaultOG = "/og-image/default.jpg";
+
+// ⭐ FINAL OG IMAGE LOGIC
+// 1. ogImage from frontmatter
+// 2. first image in post
+// 3. default fallback
+const socialImage = ogImage ?? autoOG ?? defaultOG;
+
+const articleDate = updatedDate?.toISOString() ?? publishDate.toISOString();
 ---
 
 <BaseLayout
