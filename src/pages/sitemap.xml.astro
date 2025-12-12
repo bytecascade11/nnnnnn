@@ -1,0 +1,16 @@
+---
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("posts");
+const site = 'https://revibyte.blog';
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {posts.map(post => (
+    <url>
+      <loc>{`${site}/posts/${post.slug}/`}</loc>
+      <lastmod>{post.data.updatedDate ?? post.data.publishDate}</lastmod>
+    </url>
+  ))}
+</urlset>
