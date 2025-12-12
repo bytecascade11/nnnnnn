@@ -13,7 +13,7 @@ tags:
   - Nigeria Tech
   - Opinions 
 coverImage:
-  src: "/images/10-free-ai-2025-cover.jpg"
+  src: "/src/assets/images/10-free-ai-2025-cover.jpg"
   alt: "MacBook Pro in a Lagos apartment with 10 different free AI tools open at 3 a.m. - The era of paywalled AI is over."
 ogImage: "/images/10-free-ai-2025-og.jpg"
 draft: false
