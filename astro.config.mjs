@@ -1,32 +1,12 @@
 import { defineConfig } from 'astro/config';
-import icon from 'astro-icon';  // Keep this exactly as is
+import icon from '@astrojs/icon';  // This is the new official one
 
-// Your other imports (tailwind, etc.)
+// Your other imports (like tailwind, react, etc.)
 
 export default defineConfig({
   integrations: [
-    icon(/* your current options, if any */),
-    // ...your other integrations
+    icon(),  // Add this line (new official icons)
+    // ...your other integrations here
   ],
-  vite: {
-    ssr: {
-      noExternal: ['astro-icon'],
-    },
-    plugins: [
-      {
-        name: 'astro-icon-virtual-fix',
-        enforce: 'pre',
-        resolveId(id) {
-          if (id === 'virtual:astro-icon') {
-            return id;
-          }
-        },
-        load(id) {
-          if (id === 'virtual:astro-icon') {
-            return 'export default {}; export const config = {};';
-          }
-        },
-      },
-    ],
-  },
+  // Remove any old 'astro-icon' import or line
 });
