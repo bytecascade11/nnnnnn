@@ -1,13 +1,11 @@
 import { defineConfig } from 'astro/config';
+import icon from 'astro-icon';  // assuming this is how you're importing it
 
 export default defineConfig({
-  site: 'https://revibyte.blog',
-
+  integrations: [icon(/* your options */)],
   vite: {
-    build: {
-      rollupOptions: {
-        external: ['virtual:astro-icon'],
-      },
+    ssr: {
+      noExternal: ['astro-icon'],
     },
   },
 });
