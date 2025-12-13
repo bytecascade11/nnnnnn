@@ -1,12 +1,19 @@
 import { defineConfig } from 'astro/config';
-import icon from '@astrojs/icon';  // This is the new one
+import icon from 'astro-icon';  // Keep your existing import
 
 // Your other imports...
 
 export default defineConfig({
   integrations: [
-    icon(),  // Add this (or icon({ /* options */ }) if needed)
-    // ...your other integrations like tailwind(), etc.
+    icon(/* your options if any */),
+    // ...your other integrations (tailwind, etc.)
   ],
-  // Remove any old 'astro-icon' or vite.ssr.noExternal stuff
+  vite: {
+    ssr: {
+      noExternal: ['astro-icon', /\.astro$/],  // This is the key line
+    },
+    optimizeDeps: {
+      exclude: ['astro-icon'],
+    },
+  },
 });
