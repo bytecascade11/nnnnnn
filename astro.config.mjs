@@ -1,12 +1,11 @@
 import { defineConfig } from 'astro/config';
-import icon from '@astrojs/icon';  // This is the new official one
+import icon from '@astrojs/icon';  // New official import
 
-// Your other imports (like tailwind, react, etc.)
+// Your other imports (tailwind, etc.)
 
 export default defineConfig({
   integrations: [
-    icon(),  // Add this line (new official icons)
-    // ...your other integrations here
+    icon(),  // Add this
+    // ...your other integrations
   ],
-  // Remove any old 'astro-icon' import or line
 });
