@@ -14,13 +14,13 @@ import { remarkAdmonitions } from "./src/plugins/remark-admonitions";
 import { remarkGithubCard } from "./src/plugins/remark-github-card";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time";
 import { expressiveCodeOptions, siteConfig } from "./src/site.config";
+import fs from "node:fs";
 
 export default defineConfig({
   site: siteConfig.url,
   image: { domains: ["webmention.io"] },
   integrations: [
     expressiveCode(expressiveCodeOptions),
-    // icon() removed — no more error
     sitemap(),
     mdx(),
     robotsTxt(),
@@ -78,4 +78,4 @@ function rawFonts(ext: string[]) {
       }
     },
   };
-                    }
+    }
